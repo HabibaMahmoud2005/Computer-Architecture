@@ -48,4 +48,4 @@ The 4-bit input `S` = S3 S2 S1 S0 chooses the operation:
 3. In the transcript window run:
 
    ```tcl
-   do ALU_test.do
+   do alu_test.do
