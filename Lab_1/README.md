@@ -12,7 +12,7 @@ It implements the logical and shift/rotate parts of a 16-bit ALU and a structura
 | `partB.vhd` | Implements **logical operations** (AND, OR, XOR, NOT) on two 16-bit inputs. |
 | `partC.vhd` | Implements **right shift/rotate operations** (logical shift right, rotate right, rotate right with carry, arithmetic shift right) on a 16-bit input. |
 | `partD.vhd` | Implements **left shift/rotate operations** (logical shift left, rotate left, rotate left with carry, and zero output) on a 16-bit input. |
-| `ALU.vhd`   | Structural VHDL connecting `partB`, `partC`, and `partD` into one 16-bit ALU using a 4-bit select line `S`. |
+| `ALU.vhd`   | VHDL connecting `partB`, `partC`, and `partD` into one 16-bit ALU using a 4-bit select line `S`. |
 | `alu_test.do` | ModelSim DO file that compiles the VHDL sources and runs the lab’s test vectors automatically. |
 
 ---
