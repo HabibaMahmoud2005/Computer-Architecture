@@ -82,8 +82,8 @@ do alu_test_16bit.do
 - `partC.vhd` → Right shifts/rotates
 - `partD.vhd` → Left shifts/rotates
 - `ALU.vhd` → Top-level ALSU integrating all parts
-- `alu_test_8bit.do` → ModelSim testbench (8-bit version)
-- `alu_test_16bit.do` → ModelSim testbench (16-bit version)
+- `partA_DO.do` → ModelSim testbench (8-bit version) for part A
+- `ALU_G.do` → ModelSim testbench (8-bit version)
 - `README.md` → Project documentation
 - `Notes.md` → Lab notes
 
