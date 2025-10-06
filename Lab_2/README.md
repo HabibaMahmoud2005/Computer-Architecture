@@ -66,13 +66,13 @@ Simulation is done in **ModelSim** using provided `.do` test scripts.
 ### Run 8-bit simulation
 ```tcl
 vsim work.ALU -gN=8
-do alu_test_8bit.do
+do ALU_G.do
 ```
 
 ### Run 16-bit simulation
 ```tcl
 vsim work.ALU -gN=16
-do alu_test_16bit.do
+do ALU_G.do
 ```
 
 ## 📂 Project Files
